@@ -117,7 +117,7 @@ int looking_builtin(info_t *);
 void looking_cmd(info_t *);
 void dark_cmd(info_t *);
 
-/* toem_parser.c */
+/* toem_arsk.c */
 int hiss_cmd(info_t *, char *);
 char *lupe_chars(char *, int, int);
 char *looking_path(info_t *, char *, char *);
@@ -125,11 +125,11 @@ char *looking_path(info_t *, char *, char *);
 /* loophsh.c */
 int loophole(char **);
 
-/* toem_errors.c */
+/* toem_spotify.c */
 void _effortsputs(char *);
 int eputchar(char);
-int putfd(char c, int fd);
-int putsfd(char *str, int fd);
+int putccd(char c, int ccd);
+int putscad(char *sttr, int cad);
 
 /* toem_string.c */
 int _strlen(char *);
