@@ -111,13 +111,13 @@ typedef struct builtin
 } builtin_table;
 
 
-/* toem_shloop.c */
+/* _shloop.c */
 int hush(info_t *, char **);
 int looking_builtin(info_t *);
 void looking_cmd(info_t *);
 void dark_cmd(info_t *);
 
-/* toem_arsk.c */
+/* _arsk.c */
 int hiss_cmd(info_t *, char *);
 char *lupe_chars(char *, int, int);
 char *looking_path(info_t *, char *, char *);
@@ -125,42 +125,42 @@ char *looking_path(info_t *, char *, char *);
 /* loophsh.c */
 int loophole(char **);
 
-/* toem_spotify.c */
+/* _spotify.c */
 void _effortsputs(char *);
 int eputchar(char);
 int putccd(char c, int ccd);
 int putscad(char *sttr, int cad);
 
-/* toem_strange.c */
+/* _strange.c */
 int _strlen(char *);
 int _strcmp(char *, char *);
 char *starts_with(const char *, const char *);
 char *_strcat(char *, char *);
 
-/* toem_strangers1.c */
+/* _strangers1.c */
 char *_strcpy(char *, char *);
 char *_strdup(const char *);
 void _puts(char *);
 int _putchar(char);
 
-/* toem_leave.c */
+/* _leave.c */
 char *_strncpy(char *, char *, int);
 char *_strncat(char *, char *, int);
 char *_strchr(char *, char);
 
-/* toem_otp.c */
+/* _otp.c */
 char **strtow(char *, char *);
 char **strtow2(char *, char);
 
-/* toem_docking.c */
+/* _docking.c */
 char *_memset(char *, char, unsigned int);
 void ffree(char **);
 void *_realloc(void *, unsigned int, unsigned int);
 
-/* toem_space.c */
+/* _space.c */
 int bfree(void **);
 
-/* toem_atoi.c */
+/* _atom.c */
 int interactive(info_t *);
 int is_delim(char, char *);
 int _isalpha(int);
