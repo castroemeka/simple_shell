@@ -131,7 +131,7 @@ int eputchar(char);
 int putccd(char c, int ccd);
 int putscad(char *sttr, int cad);
 
-/* toem_string.c */
+/* toem_strange.c */
 int _strlen(char *);
 int _strcmp(char *, char *);
 char *starts_with(const char *, const char *);
