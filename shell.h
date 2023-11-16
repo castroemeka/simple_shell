@@ -157,7 +157,7 @@ char *_memset(char *, char, unsigned int);
 void ffree(char **);
 void *_realloc(void *, unsigned int, unsigned int);
 
-/* toem_memory.c */
+/* toem_space.c */
 int bfree(void **);
 
 /* toem_atoi.c */
